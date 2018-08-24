@@ -39,5 +39,4 @@ def create_app(script_info=None):
     @app.shell_context_processor
     def ctx():
         return {'app': app, 'db': db}
-
     return app
